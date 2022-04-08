@@ -8,7 +8,7 @@ function justAfunction (){
 
 var fn = returnsANamedFunction();
 function returnsANamedFunction() {
-    return function view(){ return ""}
+    return function view(){ return}
 }
 
 // const returnsANamedFunction = function(name = function hello(){}) {
@@ -17,7 +17,8 @@ function returnsANamedFunction() {
 // } 
 
 const returnsAnAnonymousFunction = () => {
- return function views(){return ""}
+ return function(){return "''"}
 }
 
 var fn = returnsAnAnonymousFunction()
+console.log(returnsAnAnonymousFunction())
